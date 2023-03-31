@@ -16,6 +16,12 @@ public class Main {
             int number = arr[i];
             plusNumber(number);
         }
+        String space = "";
+        System.out.println(space);
+        for (int i = 2; i < arr[6]; i++) {
+            int number = arr[i];
+            printMiddleArr(number);
+        }
 
     }
 
@@ -25,6 +31,11 @@ public class Main {
             System.out.println(numberA);
         }
     }
-}
+    public static void printMiddleArr(int numberB) {
+        System.out.println(numberB);
+        }
+    }
+
+
 
 
