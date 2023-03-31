@@ -4,7 +4,6 @@ public class Main {
     public static int[] printArr() {
         int[] numbers = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         for (int i = 0; i < numbers.length; i++) {
-            int num1 = numbers[i];
         }
         return numbers;
     }
@@ -12,21 +11,20 @@ public class Main {
 
     public static void main(String[] args) {
         int[] arr = printArr();
-        System.out.println(plusNumber());
-        System.out.println(printMiddleArr(););
-    }
-
-    public static int plusNumber(int num1) {
-
-        if (num1 % 2 != 0) {
-            numb1 += 1;
-            return num1;
+        System.out.println(Arrays.toString(arr));
+        for (int i = 0; i < arr.length; i++) {
+            int number = arr[i];
+            plusNumber(number);
         }
+
     }
 
-    public static void printMiddleArr(int a) {
-        for (int a = 2; a < numbers[6]; a++) {
+    public static void plusNumber(int numberA) {
+        if (numberA % 2 == 0) {
+            numberA ++;
+            System.out.println(numberA);
         }
     }
 }
+
 
