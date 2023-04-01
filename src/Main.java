@@ -22,7 +22,6 @@ public class Main {
             int number = arr[i];
             printMiddleArr(number);
         }
-
     }
 
     public static void plusNumber(int numberA) {
